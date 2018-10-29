@@ -2,6 +2,7 @@
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-column-gap: 25px;
+	grid-row-gap:10px;
 	justify-content: left;
 	align-content: start;
 	grid-auto-columns: minmax(300px, auto);
@@ -20,6 +21,7 @@
 	grid-row-start: 1;
 	grid-row-end: 3;
 	display: inline-block;
+	padding: 20px;
 }
 #introduction {
 	grid-column-start: 1;
@@ -28,9 +30,10 @@
 	grid-row-end: 3;
 	display: inline-grid;
 	padding: 25px;
-	background: palegreen;
+	background: beige;
 	color: olivedrab;
 	font-family: sans-serif;
+	margin-bottom:25px;
 }
 
 #part1 {
@@ -54,13 +57,18 @@
 	padding: 10px;
 }
 
+#return {
+	text-align: right;
+	grid-row-start: 5;
+}
 
 p {
-	font-family: sans-serif;
+	
 }
 
 body {
 	background: peru;
+	font-family: sans-serif;
 }
 
 
@@ -80,10 +88,14 @@ h1 {
 }
 
 h2 {
+	display: flex;
 	color: ghostwhite;
 	background-color: olivedrab;
 	text-align: left;
+	align-self: center;
 	font-size: 48px;
+	padding: 15px;
+	height: 160px;
 	font-family: sans-serif;
 	text-transform: capitalize;
 }
@@ -95,12 +107,13 @@ h3 {
 	font-size: 36px;
 	padding: 25px;
 }
-
-
 ol {
 	font-family: sans-serif;
 	list-style-type: decimal-leading-zero;
 	font-size: 24px;
+	border-style: solid;
+	border-color: beige;
+	border: 2px;
 }
 
 ol li {
@@ -112,11 +125,20 @@ ul li {
 	list-style-type: square;
 }
 
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	list-style-type: square;
+}
+
 strong {
 	font-family: sans-serif;
 	color: beige;
 	background-color: darkolivegreen;
-	padding: 3px;
+	padding: 5px;
 }
 
 img {
@@ -130,7 +152,7 @@ img {
 
 a {
 	color: darkseagreen;
-	background-color: palegoldenrod;
+	background-color: beige;
 	text-align: center;
 	padding: 10px;
 	font-family: sans-serif;
