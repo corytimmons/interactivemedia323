@@ -1,0 +1,13 @@
+body {
+	border: 250px black solid;
+	padding: 400px;
+	width: 400px;
+}
+
+strong {
+	border: 5px solid black;
+	display: inline-block;
+	float: right;
+	margin: 150px;
+	padding: 10px;
+}

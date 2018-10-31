@@ -1,0 +1,22 @@
+.red {
+	background-color: red;
+	color: white;
+}
+
+.blue {
+	background-color: blue;
+	color: white;
+}
+.white {
+	background-color: white;
+	color: black;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 25px;
+	grid-row-gap:10px;
+	justify-content: left;
+	align-content: start;
+	grid-auto-columns: minmax(300px, auto);
