@@ -1,0 +1,12 @@
+body {
+	width: 8000px;
+	margin: 100px;
+	border: lightgrey 125px double;
+	padding: 100px;
+}
+
+
+p {
+	border-top: blue 100px solid;
+	border-bottom: red 100px dashed;
+}
