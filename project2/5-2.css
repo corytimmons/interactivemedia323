@@ -1,0 +1,42 @@
+body {
+	border: 350px solid beige;
+	padding: 50px;
+	width: 500px;
+	float: center;
+}
+
+h1 {
+	display: inline-block;
+	border: 150px inset goldenrod;
+	padding: 20px;
+}
+
+h2 {
+	display: inline-block;
+	border: 20px dashed chartreuse;
+	padding: 50px;
+}
+h3 {
+	border: 50px double darkgrey;
+	padding: 50px;
+}
+
+h4 {
+	border: 40px solid pink;
+	padding: 20px;
+}
+
+h5 {
+	padding: 60px;
+	margin: 10px;
+	border: lightblue 25px dotted;
+}
+strong {
+	border: 50px red solid;
+}
+
+
+div {
+	border: 2px dashed grey;
+	padding: 20px;
+}

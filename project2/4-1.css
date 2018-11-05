@@ -1,0 +1,41 @@
+body {
+	font-family: sans-serif;
+	line-height: 90%;
+	padding: 10%;
+}
+
+.container {
+	display: inline-block;
+	border: black 1px solid;
+}
+
+
+
+#left-a {
+	text-align: left;
+}
+#left-b {
+	text-align: left;
+}
+#left-c {
+	text-align: left;
+}
+
+#right-a {
+	text-align: right;
+}
+#right-b {
+	text-align: right;
+}
+#right-c {
+	text-align: right;
+	font-size: 2.5em;
+}
+
+
+
+div {
+	margin: 10px;
+	border: 1px dashed black;
+	padding: 25px;
+}
