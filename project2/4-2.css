@@ -1,0 +1,73 @@
+body {
+	font-family: sans-serif;
+	line-height: 1.6;
+	width: 8000px;
+	height: 1000px;
+	font-size: 1.5em;
+	display: inline-block;
+	border: 400px dotted lightgrey;
+}
+
+div {
+	width: 400px;
+	height:400px;
+	padding: 50px;
+	margin: 200px;
+	border: 15px dashed transparent;
+	display: inline-block;
+}
+
+.metal {
+	text-align: center;
+
+}
+
+.couldhave {
+	position: relative;
+	width: 800px;
+	line-height: 1.9;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.kill {
+	letter-spacing: 2.5px;
+}
+
+
+.sky {
+	text-align: right;
+	font-size: 24px;
+}
+
+
+.built {
+
+	text-align: right;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	font-size: 50px;
+
+}
+
+.borders {
+	font-size: 40px;
+}
+
+
+.killed {
+	font-style: italic;
+	text-align: right;
+}
+
+.body {
+
+}
+
+ul {
+
+}
+
+strong {
+
+}

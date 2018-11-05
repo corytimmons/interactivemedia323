@@ -1,6 +1,6 @@
 body {
 	padding: 200px;
-	border: 5px dotted red;
+	border: 5px dotted darkgrey;
 	width: 800px;
 	position: center;
 }
@@ -8,7 +8,7 @@ body {
 h1 {
 	padding: 40px;
 	margin: 10px;
-	border: 12px dashed red;
+	border: 12px dashed darkgrey;
 	float: left;
 	display: inline-block;
 }
@@ -18,51 +18,51 @@ h2 {
 	margin: 5px;
 	display: inline-block;
 	float: right;
-	border: 10px dotted blue;
+	border: 10px dotted lightgrey;
 }
 
 h3 {
-	border: 4px dashed red;
+	border: 4px dashed darkgrey;
 	float: right;
 }
 h4 {
 	float: right;
-	border: 10px dashed red;
+	border: 10px dashed darkgrey;
 	padding: 25px;
 }
 h5 {
 	display: inline-block;
 	padding: 10px;
-	border: 3px dashed red;
+	border: 3px dashed darkgrey;
 }
 h6 {
 	display: inline-block;
 	padding: 50px;
-	border: 30px dashed red;
+	border: 30px dashed darkgrey;
 }
 
 ul li {
 	margin-left: 30px;
-	border: 3px dashed red;
+	border: 3px dashed darkgrey;
 	display: inline-block;
 	padding: 5px;
 	margin-bottom: 2px;
 }
 
 em {
-	border: 5px dashed red;
+	border: 5px dashed darkgrey;
 	padding: 5px;
 	margin: 5px;
 }
 
 strong {
 	display: inline-block;
-	border: 50px dashed red;
+	border: 50px dashed darkgrey;
 }
 
 div {
 	position: relative;
 	padding: 20px;
 	display: inline-block;
-	border: 4px dotted blue;
+	border: 4px dotted lightgrey;
 }

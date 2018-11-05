@@ -1,0 +1,23 @@
+body {
+	border: 350px solid grey;
+	padding: 50px;
+	height: 2500px;
+	width: 470px;
+	float: center;
+	display: grid;
+}
+
+
+div {
+	border: 2px dashed grey;
+	padding: 60px;
+	display: block;
+	margin: 30px;
+	width: 300px;
+}
+
+em {
+	border: 1px black solid;
+	padding: 1px;
+	margin: 10px;
+}

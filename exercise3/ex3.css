@@ -1,0 +1,249 @@
+.topbar {
+	height: 100px;
+	background: black;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.middlebar {
+	height: 75px;
+	background: dodgerblue;
+	position: relative;
+	top: 0;
+	left: 0;
+	text-align: left;
+}
+.bottombar {
+	height: 75px;
+	background: black;
+	position: relative;
+	top: 0;
+	left: 0;
+	text-align: left;
+}
+#squarelogo {
+	height: 100px;
+	width: 100px;
+	background: royalblue;
+	position: absolute;
+	top: 0;
+	left: 25px;
+	color: white;
+	text-align: center;
+	display: inline-block;
+}
+
+#magnifying-glass {
+      font-size: 3em;
+      display: inline-block;
+      width: 0.4em;
+      box-sizing: content-box;
+      height: 0.4em;
+      border: 0.1em solid white;
+      position: relative;
+      border-radius: 0.35em;
+      left: 200px;
+      top: 30px;
+    }
+#magnifying-glass:before {
+	  content: "";
+	  display: inline-block;
+	  position: absolute;
+	  right: -0.25em;
+	  bottom: -0.1em;
+	  border-width: 0;
+	  background: white;
+	  width: 0.35em;
+	  height: 0.08em;
+	  transform: rotate(45deg);
+}
+
+#searchbar {
+	width: 400px;
+	color: darkgrey;
+	position: absolute;
+	left: 250px;
+	font-size: 30px;
+}
+
+#triangle-up {
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 20px solid white;
+      transform: rotate(45deg);
+      position: relative;
+      left: 500px;
+    }
+
+#triangle-down {
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 20px solid white;
+      transform: rotate(180deg);
+      position: absolute;
+      left: 1325px;
+      top: 45px;
+
+    }
+#triangle-downre {
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 20px solid white;
+      transform: rotate(180deg);
+      position: absolute;
+      left: 1530px;
+      top: 22px;
+
+    }
+
+#circle {
+	  width: 30px;
+	  height: 30px;
+	  background: white;
+	  border-radius: 50%;
+	  position: relative;
+	  left: 1200px;
+	  bottom: 20px;
+    }
+#USdeg {
+	color: white;
+	position: relative;
+	left: 1250px;
+	bottom: 40px;
+	font-size: 1.5em;
+}
+
+#burst-8 {
+      background: white;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      text-align: center;
+      transform: rotate(20deg);
+      bottom: 40px;
+      left: 1400px;
+    }
+    #burst-8:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 30px;
+      width: 30px;
+      background: white;
+      transform: rotate(135deg);
+    }
+
+#hamburger {
+	transform: rotate(90deg);
+	position: absolute;
+	bottom: 40px;
+	left: 1500px;
+	color: white;
+	font-size: 36px;
+}
+
+#divide {
+	font-size:80px;
+	color: white;
+	font-weight: 100px;
+	position: absolute;
+	left: 350px;
+	bottom: 0;
+
+}
+
+#local {
+	font-size: 50px;
+	color: white;
+	position: absolute;
+	left: 75px;
+}
+
+#days {
+	color: white;
+	font-size: 40px;
+	position: absolute;
+	left: 200px;
+}
+#ad {
+	display: block;
+	width: 1200px;
+	height: 400px;
+	border: 1px lightgrey solid;
+	position: relative;
+	margin: 50px;
+	float: center;
+	left: 150px;
+}
+
+.content {
+	display: grid;
+	grid-template-columns: 700px 400px 500px;
+	margin-left: 50px;
+	}
+
+#content-a {
+	display: grid;
+	width: 600px;
+	height: 450px;
+	border: 1px lightgrey solid;
+	color: white;
+	position: absolute;
+	grid-column-start: 1;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+#content-b {
+	display: grid;
+	width: 300px;
+	height: 150px;
+	border: 1px lightgrey solid;
+	color: white;
+	grid-column-start: 2;
+	grid-row-start: 1;
+	position: relative;
+
+}
+
+#content-d {
+	display: grid;
+	width: 300px;
+	height: 150px;
+	border: 1px lightgrey solid;
+	grid-column-start: 2;
+	grid-row-start: 2;
+	grid-row-end: 4;
+	position: relative;
+	margin-top: 25px;
+}
+
+#content-e {
+	display: grid;
+	width: 300px;
+	height: 150px;
+	border: 1px lightgrey solid;
+	color: white;
+	grid-column-start: 2;
+	grid-row-start: 3;
+	position: relative;
+}
+
+#content-c {
+	display: grid;
+	width: 350px;
+	height: 350px;
+	border: 1px lightgrey solid;
+	color: white;
+	font-size: 100px;
+	grid-column-start: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
