@@ -1,0 +1,69 @@
+body {
+	font-family: sans-serif;
+	line-height: 1.6;
+	margin: 20px;
+	font-size: 1.0em;
+	display: block;
+	border: 200px black double;
+	padding: 25px;
+}
+
+div {
+
+}
+
+.metal {
+	text-align: left;
+	font-family: cursive;
+	font-size: 1.5em;
+}
+
+.couldhave {
+	text-align: left;
+	font-size: 3em;
+}
+
+.kill {
+	text-align: right;
+	font-size: 2em;
+}
+
+
+.sky {
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+
+.built {
+	text-align: right;
+	font-size: 6em;
+	font-weight: bold;
+}
+
+.borders {
+
+}
+.child {
+	font-family: cursive;
+	font-size: 5em;
+	letter-spacing: -35px;
+}
+
+.killed {
+	font-size: 4.5em;
+	text-align: center;
+
+}
+
+.body {
+	text-align: right;
+}
+
+ul {
+
+}
+
+strong {
+
+}

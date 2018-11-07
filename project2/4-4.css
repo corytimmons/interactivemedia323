@@ -1,0 +1,43 @@
+body {
+	font-family: monospace;
+	padding: 25px;
+	letter-spacing: 5px;
+}
+
+div {
+	padding: 25px;
+}
+
+.metal {
+	text-align: right;
+}
+
+.kill {
+	text-align: right;
+	font-size: 1.5em;
+}
+
+
+.built {
+font-size: 4em;
+}
+
+
+
+.killed {
+	margin-left: 200px;
+	font-size: 3em;
+
+}
+
+.body {
+	font-size: 2em;
+}
+
+
+em {
+	font-family: cursive;
+	letter-spacing: -2px;
+	font-weight: bold;
+	font-size: 6em;
+}

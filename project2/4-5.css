@@ -1,0 +1,23 @@
+body {
+		display: inline-block;
+}
+
+div {
+	padding: 25px;
+	display: inline-block;
+}
+
+#drone {
+	font-size: 225px;
+	position: fixed;
+}
+
+#scroll	{
+	margin-left: 850px;
+	font-size: 60px;
+}
+
+em {
+	font-size: 250px;
+	font-style: normal;
+}

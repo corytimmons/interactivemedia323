@@ -1,0 +1,119 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: teal;
+	position: relative;
+	z-index: 0;
+}
+ #headband{
+      width: 450px;
+      height: 400px;
+      background: ghostwhite;
+      border-radius: 50%;
+      margin-top: 41px;
+      margin-left: 250px;
+      position: absolute;
+      border: 2px solid darkgrey;
+      transform: rotate3d(0, 0, 1, 40deg);
+  }
+
+   #headband-inside{
+      width: 450px;
+      height: 375px;
+      background: transparent;
+      border-radius: 50%;
+      margin-top: 110px;
+      margin-left: 265px;
+      position: absolute;
+      background: teal;
+      transform: rotate3d(0, 0, 1, 70deg);
+  }
+
+ #circle-right{
+      width: 150px;
+      height: 150px;
+      background: white;
+      border-radius: 50%;
+      margin-left: 600px;
+      position: absolute;
+      margin-top: 222px;
+      border: 4px solid lightgrey;
+  }
+
+  #circle-left {
+  	width: 150px;
+      height: 150px;
+      background: white;
+      border-radius: 50%;
+      margin-left: 333px;
+      position: absolute;
+      margin-top: 333px;
+      z-index: 2;
+  }
+
+   #inner{
+      width: 75px;
+      height: 75px;
+      background: darkgrey;
+      border-radius: 50%;
+      position: absolute;
+      margin: 36px;
+
+  }
+ #outer{
+      width: 125px;
+      height: 125px;
+      border: 5px inset grey;
+      border-radius: 50%;
+      position: absolute;
+      margin: 12px;
+
+  }
+
+  #lefthead {
+      width: 30px;
+      height: 200px;
+      transform: skew(20deg);
+      background: lightgrey;
+      position: absolute;
+      margin-left: 305px;
+      margin-top: 270px;
+      z-index: 1;
+
+    }
+
+  #corda {
+  	width: 350px;
+      height: 100px;
+      background: transparent;
+      border-radius: 50%;
+      margin-left: 375px;
+      position: absolute;
+      margin-top: 450px;
+      border: 2px white solid;
+      border-right: none;
+      border-top: none;
+  }
+
+   #cordb {
+  	width: 250px;
+      height: 100px;
+      background: transparent;
+      border-radius: 50%;
+      margin-left: 610px;
+      position: absolute;
+      margin-top: 380px;
+      border: 2px white solid;
+      border-left: none;
+      border-bottom: none;
+      transform: rotate(30deg);
+  }
