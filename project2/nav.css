@@ -1,0 +1,57 @@
+#nav {
+	position: fixed;
+	right: 25px;
+	line-height: 25%;
+	font-family: sans-serif;
+	text-decoration: normal;
+}
+
+#nav a {
+	text-decoration: none;
+	color: black;
+}
+
+
+.heart {
+	fill: red;
+}
+
+#base {
+    background: red;
+    display: inline-block;
+    height: 22px;
+    margin-left: 5px;
+    margin-top: 33px;
+    position: relative;
+    width: 31px;
+}
+
+
+.heart:hover {
+	fill: black;
+	animation: pulse 1s ease infinite; 
+}
+
+#base:hover {
+    background: black;
+    animation: pulse 1s ease infinite; 
+}
+
+#base:before:hover {
+        border-bottom: 35px solid black;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    content: "";
+    height: 0;
+    left: -4px;
+    position: absolute;
+    top: -34px;
+    width: 0;
+
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
