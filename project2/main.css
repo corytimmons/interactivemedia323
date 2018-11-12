@@ -1,0 +1,96 @@
+body {
+	background-color: beige;
+	font-family: sans-serif;
+	display: block;
+}
+
+a {
+	z-index: 1;
+	border: 1px black solid;
+	padding: 25px;
+}
+
+p {
+	z-index:300;
+	display: block;
+	margin: 5px;
+}
+
+div {
+	text-align: center;
+	width: 100vw;
+	padding:10px;
+}
+
+h1 {
+	font-size: 5vw;
+}
+
+h2 {
+	z-index: 100;
+	font-size: 50px;
+}
+
+.container {
+	padding: 10px;
+}
+.content {
+
+	width: 100vw;
+
+}
+
+#top {
+	background-color: navy;
+	padding: 10px;
+	color: white;
+	letter-spacing: 3px;
+	grid-column-start: 1;
+	grid-column-end:3;
+	position: static;
+	width: 106vw;
+	margin-left:-5vw;
+	text-align: right;
+}
+
+
+#heart {
+  position: relative;
+  width: 400px;
+  height: 360px;
+  z-index: -1;
+}
+#heart:before,
+#heart:after {
+  position: absolute;
+  content: "";
+  left: 250px;
+  top: 0;
+  width: 250px;
+  height: 400px;
+  background: red;
+  border-radius: 250px 250px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;\
+  z-index: -1;
+}
+#heart:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+  z-index: -1;
+}
+
+
+#drop {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-left: 25px;
+  background-color: green;
+  border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+  transform: rotatez(-45deg);
+}
+
+
+

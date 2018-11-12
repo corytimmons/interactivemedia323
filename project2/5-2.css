@@ -1,42 +1,205 @@
 body {
-	border: 350px solid beige;
-	padding: 50px;
+	display: grid;
+	grid-template-columns: 550px auto;
+
+	font-family: sans-serif;
+	font-size: 3.5vw;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+div {
+	align-content: center;
+	padding-left: 50px;
+	padding-top:200px;
+	padding-bottom: 200px;
+	vertical-align: middle;
+
+}
+span {
+	font-size: 72px;
+	color: white;
+	padding: 20px;
+	font-weight: normal;
+	letter-spacing: 5px;
 	width: 500px;
-	float: center;
+	height: 5000px;
+	text-align: center;
+	position: fixed;
 }
 
 h1 {
-	display: inline-block;
-	border: 150px inset goldenrod;
-	padding: 20px;
+	font-weight: normal;
 }
-
 h2 {
-	display: inline-block;
-	border: 20px dashed chartreuse;
-	padding: 50px;
+	font-size: 2vw;
+	color: white;
 }
 h3 {
-	border: 50px double darkgrey;
-	padding: 50px;
+	font-size: 3vw;
+
 }
 
-h4 {
-	border: 40px solid pink;
-	padding: 20px;
-}
-
-h5 {
-	padding: 60px;
-	margin: 10px;
-	border: lightblue 25px dotted;
-}
-strong {
-	border: 50px red solid;
+#thedrone {
+	background-color: darkblue;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 8;
+	font-family: 'Codystar', sans-serif;
+	word-wrap: break-word;
+	justify-content: center;
 }
 
 
-div {
-	border: 2px dashed grey;
-	padding: 20px;
+.red1 {
+	grid-column-start: 2;
+	grid-column-end: 2;
+	
+	background-color: firebrick;
+	color: white;
+	animation: firebrick 5s ease-in-out infinite alternate; 
+
+}
+
+.white1 {
+	background-color: white;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 2
+	grid-row-end: 2;
+	animation: white 5s ease-in-out infinite alternate; 
+
+}
+
+.red2 {
+	line-height: 75%;
+		grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 3;
+	background-color: firebrick;
+	color: white;
+	animation: firebrick 5s ease-in-out infinite alternate; 
+
+}
+.white2 {
+	background-color: white;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 4;
+	grid-row-end: 4;
+	animation: white 5s ease-in-out infinite alternate; 
+}
+
+
+.red3 {
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start:5;
+	grid-row-end:5;
+	background-color: firebrick;
+	color: white;
+	animation: firebrick 5s ease-in-out infinite alternate; 
+
+}
+
+.white3 {
+	background-color: white;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 6;
+	grid-row-end: 6;
+	animation: white 5s ease-in-out infinite alternate; 
+}
+
+.red4 {
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start:7;
+	grid-row-end:7;
+	background-color: firebrick;
+	color: white;
+	animation: firebrick 5s ease-in-out infinite alternate; 
+
+}
+
+.white4 {
+	background-color: white;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 8;
+	grid-row-end: 8;
+	animation: white 5s ease-in-out infinite alternate; 
+}
+.red5 {
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start:9;
+	grid-row-end:9;
+	background-color: firebrick;
+	color: white;
+	animation: firebrick 5s ease-in-out infinite alternate; 
+
+}
+
+.white5 {
+	background-color: white;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 10;
+	grid-row-end: 10;
+	animation: white 5s ease-in-out infinite alternate; 
+}
+
+
+.red6 {
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start:11;
+	grid-row-end:11;
+	background-color: firebrick;
+	color: white;
+	animation: firebrick 5s ease-in-out infinite alternate; 
+
+}
+
+.white6 {
+	background-color: white;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 12;
+	grid-row-end: 12;
+	animation: white 5s ease-in-out infinite alternate; 
+}
+
+.red7{
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 13;
+	grid-row-end: 13;
+	color: white;
+	background-color: firebrick;
+	animation: firebrick 5s ease-in-out infinite alternate; 
+
+}
+
+@keyframes firebrick {
+    0% { background-color: darkred;}
+    25% {background-color: firebrick;}
+    75% {background-color: firebrick;}
+    100% {background-color: darkred;}
+}
+
+@keyframes white {
+    0% { background-color: ghostwhite;}
+    25% {background-color: white;}
+    75% {background-color: white;}
+    100% {background-color: ghostwhite;}
 }

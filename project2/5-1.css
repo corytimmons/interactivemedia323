@@ -1,0 +1,68 @@
+body {
+	border: 350px solid beige;
+	padding: 50px;
+	width: 600px;
+	float: center;
+	font-family: 'Stardos Stencil', cursive;
+	font-size: 40px;
+}
+
+
+h1 {
+	display: inline-block;
+	border: 150px inset goldenrod;
+	padding: 20px;
+}
+
+h2 {
+	display: inline-block;
+	border: 20px dashed chartreuse;
+	padding: 50px;
+}
+@keyframes metal {
+											   0% {border-color: darkgrey;}
+											    25% {border-color: black;}
+											   75% {border-color: lightgrey;}
+											    100% {border-color: darkgrey;} 
+											}
+
+h3 {
+	border: 50px double darkgrey;
+	padding: 50px;
+	animation-name: metal;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+h4 {
+	border: 40px solid pink;
+	padding: 20px;
+}
+
+@keyframes sky {
+											   0% {border-color: transparent;}
+											    25% {border-color: lightblue;}
+											    100% {border-color: transparent;} 
+											}
+
+
+h5 {
+	padding: 60px;
+	margin: 10px;
+	border: lightblue 25px dotted;
+	animation-name: sky;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+strong {
+	border: 20px red solid;
+	opacity: 0.9;
+	color:red;
+}
+
+
+div {
+	border: 2px dashed grey;
+	padding: 20px;
+	font-size: 20px;
+}
