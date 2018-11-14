@@ -25,3 +25,60 @@ strong:hover {
 	text-decoration: none
 
 }
+
+#nav {
+	position: fixed;
+	right: 25px;
+	line-height: 15%;
+	font-family: sans-serif;
+}
+
+#nav a {
+	text-decoration: none;
+	color: white;
+    text-align: center;
+}
+
+.heart {
+	fill: firebrick;
+    margin-top: 10px;
+    opacity: 0.25;
+}
+
+
+.heart:hover {
+    fill: black;
+    opacity: 1;
+}
+
+.home {
+    fill: firebrick;
+    margin-top: 10px;
+    opacity: 0.25;
+    transform: scale(1.5);
+}
+
+.home:hover {
+    fill: black;
+    opacity: 1;
+    animation: pulse 1s ease infinite; 
+}
+
+.left {
+    transform:rotate(90deg);
+}
+
+.right {
+    transform: rotate(270deg);
+}
+
+.lvl {
+    font-size: 10px;
+    position: relative;
+    margin-top: 8px;
+    text-align: center;
+
+}
+.hm {
+    margin-top: -4px;
+}
