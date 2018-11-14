@@ -1,22 +1,13 @@
 body {
-	background-color: lightgrey;
+	background-color: beige;
 	font-family: sans-serif;
 	display: block;
-	min-width: 800px;
 }
 
 a {
 	z-index: 1;
-	border: 3px white solid;
+	border: 1px black solid;
 	padding: 25px;
-	text-decoration: none;
-	color: white;
-}
-
-a:hover {
-	border: 3px darkgrey solid;
-	background-color: white;
-	color:black;
 }
 
 p {
@@ -27,9 +18,8 @@ p {
 
 div {
 	text-align: center;
-	width: 50vw;
-	min-width: 500px;
-	padding: 20px;
+	width: 100vw;
+	padding:10px;
 }
 
 h1 {
@@ -42,11 +32,11 @@ h2 {
 }
 
 .container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-
+	padding: 10px;
 }
 .content {
+
+	width: 100vw;
 
 }
 
@@ -54,59 +44,53 @@ h2 {
 	background-color: navy;
 	padding: 10px;
 	color: white;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	grid-column-start: 1;
 	grid-column-end:3;
 	position: static;
 	width: 106vw;
-	margin-left:-1vw;
-	text-align: center;
+	margin-left:-5vw;
+	text-align: right;
 }
 
-.heart {
-  fill: darkred;
+
+#heart {
   position: relative;
-  top: 5px;
+  width: 400px;
+  height: 360px;
+  z-index: -1;
+}
+#heart:before,
+#heart:after {
+  position: absolute;
+  content: "";
+  left: 250px;
+  top: 0;
   width: 250px;
+  height: 400px;
+  background: red;
+  border-radius: 250px 250px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;\
+  z-index: -1;
+}
+#heart:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+  z-index: -1;
 }
 
-.heart:hover {
-  fill: black;
-  position: relative;
-  top: 5px;
-  width: 250px;
-  animation: pulse 1s ease infinite; 
+
+#drop {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-left: 25px;
+  background-color: green;
+  border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+  transform: rotatez(-45deg);
 }
 
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.1); }
-  100% { transform: scale(1); }
-}
 
-.lvl {
-	position: relative;
-	top:-175px;
-	font-size: 45px;
-	color: white;
-}
-svg {
-	margin: 10px;
-}
 
-span {
-	top: 50px;
-}
-
-#level1 {
-	grid-column-start: 1;
-}
-
-#level2 {
-	grid-column-start: 2;
-}
-#level5 {
-	margin-left: 25vw;
-	grid-column-start: 1;
-	grid-column-end: 3;
-}
